@@ -3,7 +3,7 @@ datapoint: "last"
 dataRefTransform:
   namespaced: false
 
-cellIdPreamble: "cell-"
+cellIdPreamble: ""
 cellLabelDecimalPoints: 1
 
 cells:
