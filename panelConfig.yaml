@@ -1,0 +1,36 @@
+datapoint: "last"
+
+dataRefTransform:
+  namespaced: false
+
+cellIdPreamble: "cell-"
+cellLabelDecimalPoints: 1
+
+cells:
+  X5rMJUnQ_nHcUnPdFZJS-6:
+    dataRef: "sw1_out_bps"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+
+  X5rMJUnQ_nHcUnPdFZJS-7:
+    dataRef: "sw1_in_bps"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+
+  X5rMJUnQ_nHcUnPdFZJS-9:
+    dataRef: "sw2_out_bps"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+
+  X5rMJUnQ_nHcUnPdFZJS-8:
+    dataRef: "sw2_in_bps"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
