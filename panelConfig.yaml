@@ -1,36 +1,580 @@
+---
 datapoint: "last"
 
 dataRefTransform:
   namespaced: false
 
-cellIdPreamble: ""
+cellIdPreamble: "cell-"
 cellLabelDecimalPoints: 1
+gradientMode: "none"
 
 cells:
-  X5rMJUnQ_nHcUnPdFZJS-6:
-    dataRef: "sw1_out_bps"
+  # MERTON RED
+  merton_r_47_tx:
+    dataRef: "merton_r_47_tx"
     label:
       separator: "colon"
       units: "bps"
       decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
 
-  X5rMJUnQ_nHcUnPdFZJS-7:
-    dataRef: "sw1_in_bps"
+  merton_r_47_rx:
+    dataRef: "merton_r_47_rx"
     label:
       separator: "colon"
       units: "bps"
       decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
 
-  X5rMJUnQ_nHcUnPdFZJS-9:
-    dataRef: "sw2_out_bps"
+  merton_r_49_tx:
+    dataRef: "merton_r_49_tx"
     label:
       separator: "colon"
       units: "bps"
       decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
 
-  X5rMJUnQ_nHcUnPdFZJS-8:
-    dataRef: "sw2_in_bps"
+  merton_r_49_rx:
+    dataRef: "merton_r_49_rx"
     label:
       separator: "colon"
       units: "bps"
       decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  # MERTON BLUE
+  merton_b_47_tx:
+    dataRef: "merton_b_47_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  merton_b_47_rx:
+    dataRef: "merton_b_47_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  merton_b_49_tx:
+    dataRef: "merton_b_49_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  merton_b_49_rx:
+    dataRef: "merton_b_49_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  # MERTON PURPLE
+  merton_p_53_tx:
+    dataRef: "merton_p_53_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  merton_p_53_rx:
+    dataRef: "merton_p_53_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  merton_p_54_tx:
+    dataRef: "merton_p_54_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  merton_p_54_rx:
+    dataRef: "merton_p_54_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+  
+  # RC RED
+  rc_r_47_tx:
+    dataRef: "rc_r_47_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_r_47_rx:
+    dataRef: "rc_r_47_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  rc_r_49_tx:
+    dataRef: "rc_r_49_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_r_49_rx:
+    dataRef: "rc_r_49_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+  
+  rc_r_50_tx:
+    dataRef: "rc_r_50_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_r_50_rx:
+    dataRef: "rc_r_50_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  # RC BLUE
+  rc_b_47_tx:
+    dataRef: "rc_b_47_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_b_47_rx:
+    dataRef: "rc_b_47_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  rc_b_49_tx:
+    dataRef: "rc_b_49_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_b_49_rx:
+    dataRef: "rc_b_49_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+    
+  rc_b_50_tx:
+    dataRef: "rc_b_50_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_b_50_rx:
+    dataRef: "rc_b_50_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  # RC PURPLE - 1
+  rc_p1_53_tx:
+    dataRef: "rc_p1_53_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_p1_53_rx:
+    dataRef: "rc_p1_53_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  rc_p1_54_tx:
+    dataRef: "rc_p1_54_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_p1_54_rx:
+    dataRef: "rc_p1_54_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  # RC PURPLE - 2
+  rc_p2_45_tx:
+    dataRef: "rc_p2_45_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_p2_45_rx:
+    dataRef: "rc_p2_45_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+  rc_p2_46_tx:
+    dataRef: "rc_p2_46_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rc_p2_46_rx:
+    dataRef: "rc_p2_46_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "#3b82f6", level: 1 }
+
+# TORONTO SCOTIABANK - RED
+
+  sb_r_39_tx:
+    dataRef: "sb_r_39_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  sb_r_39_rx:
+    dataRef: "sb_r_39_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  sb_r_41_tx:
+    dataRef: "sb_r_41_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  sb_r_41_rx:
+    dataRef: "sb_r_41_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+
+# TORONTO SCOTIABANK - BLUE
+
+  sb_b_39_tx:
+    dataRef: "sb_b_39_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  sb_b_39_rx:
+    dataRef: "sb_b_39_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  sb_b_41_tx:
+    dataRef: "sb_b_41_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  sb_b_41_rx:
+    dataRef: "sb_b_41_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+# EDMONTON - RP - PURPLE
+
+  rp_p_39_tx:
+    dataRef: "rp_p_39_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rp_p_39_rx:
+    dataRef: "rp_p_39_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+
+  rp_p_37_tx:
+    dataRef: "rp_p_37_tx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
+  
+  rp_p_37_rx:
+    dataRef: "rp_p_37_rx"
+    label:
+      separator: "colon"
+      units: "bps"
+      decimalPoints: 1
+    labelColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "#888888", level: 0 }
+        - { color: "orange", level: 1 }
+        - { color: "red", level: 1000000000 }
